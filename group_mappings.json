@@ -1,0 +1,291 @@
+[
+    {
+        "name": "cyto_score_detail",
+        "group_mapping": {
+            "Unknown": "Uncertain",
+            "Intermediate": "Intermediate",
+            "Poor": "Poor",
+            "Favorable": "Favorable",
+            "TBD": "Uncertain",
+            "Not tested": "Uncertain"
+        }
+    },
+    {
+        "name": "dri_score",
+        "group_mapping": {
+            "Intermediate": "Intermediate",
+            "N/A - pediatric": "Uncertain",
+            "High": "High",
+            "N/A - non-malignant indication": "Uncertain",
+            "TBD cytogenetics": "Uncertain",
+            "Low": "Low",
+            "High - TED AML case <missing cytogenetics>": "High",
+            "Intermediate - TED AML case <missing cytogenetics>": "Intermediate",
+            "N/A - disease not classifiable": "Uncertain",
+            "Very high": "Very high",
+            "Unknown": "Uncertain",
+            "Missing disease status": "Uncertain"
+        }
+    },
+    {
+        "name": "psych_disturb",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "cyto_score",
+        "group_mapping": {
+            "Unknown": "Uncertain",
+            "Intermediate": "Intermediate",
+            "Favorable": "Favorable",
+            "TBD": "Uncertain",
+            "Normal": "Normal",
+            "Other": "Uncertain",
+            "Poor": "Poor",
+            "Not tested": "Uncertain"
+        }
+    },
+    {
+        "name": "diabetes",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "tbi_status",
+        "group_mapping": {
+            "No TBI ": "No TBI",
+            "TBI + Cy +- Other": "TBI + Cy",
+            "TBI +- Other, <=cGy": "TBI <=cGy",
+            "TBI +- Other, >cGy": "TBI >cGy",
+            "TBI +- Other, -cGy, single": "TBI -cGy",
+            "TBI +- Other, -cGy, fractionated": "TBI -cGy",
+            "TBI +- Other, -cGy, unknown dose": "TBI -cGy",
+            "Unknown": "Uncertain"
+        }
+    },
+    {
+        "name": "arrhythmia",
+        "group_mapping": {
+            "Unknown": "Uncertain",
+            "No": "No",
+            "Yes": "Yes",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "renal_issue",
+        "group_mapping": {
+            "Unknown": "Uncertain",
+            "No": "No",
+            "Yes": "Yes",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "pulm_severe",
+        "group_mapping": {
+            "Unknown": "Uncertain",
+            "No": "No",
+            "Yes": "Yes",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "prim_disease_hct",
+        "group_mapping": {
+            "Unknown": "Uncertain",
+            "ALL": "Acute Leukemias",
+            "AML": "Acute Leukemias",
+            "MDS": "Myelo Disorders",
+            "IPA": "Infections or Disease Complications",
+            "MPN": "Myelo Disorders",
+            "IEA": "Infections or Disease Complications",
+            "NHL": "Lymphoma",
+            "IIS": "Inherited or Immune Disorders",
+            "PCD": "Plasma Cell Disorders",
+            "SAA": "Bone Marrow Failure Syndromes",
+            "AI": "Autoimmune Diseases",
+            "HIS": "Inherited or Immune Disorders",
+            "Other leukemia": "Chronic Leukemias",
+            "Solid tumor": "Solid tumor",
+            "IMD": "Inherited or Immune Disorders",
+            "Other acute leukemia": "Acute Leukemias",
+            "HD": "Lymphoma",
+            "CML": "Chronic Leukemias"
+        }
+    },
+    {
+        "name": "cmv_status",
+        "group_mapping": {
+            "+/+": "+/+",
+            "-/+": "-/+",
+            "+/-": "+/-",
+            "-/-": "-/-",
+            "Unknown": "Uncertain"
+        }
+    },
+    {
+        "name": "tce_imm_match",
+        "group_mapping": {
+            "P/P": "P-Match",
+            "P/H": "P-Match",
+            "P/B": "P-Match",
+            "P/G": "P-Match",
+            "G/G": "G-Match",
+            "G/B": "G-Match",
+            "H/H": "H-Match",
+            "H/B": "H-Match",
+            "Unknown": "Uncertain"
+        }
+    },
+    {
+        "name": "conditioning_intensity",
+        "group_mapping": {
+            "MAC": "MAC",
+            "RIC": "RIC",
+            "Unknown": "Uncertain",
+            "NMA": "NMA",
+            "TBD": "Uncertain",
+            "No drugs reported": "Uncertain",
+            "N/A, F(pre-TED) not submitted": "Uncertain"
+        }
+    },
+    {
+        "name": "ethnicity",
+        "group_mapping": {
+            "Not Hispanic or Latino": "Not Hispanic or Latino",
+            "Hispanic or Latino": "Hispanic or Latino",
+            "Unknown": "Uncertain",
+            "Non-resident of the U.S.": "Uncertain"
+        }
+    },
+    {
+        "name": "obesity",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "hepatic_severe",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "prior_tumor",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "peptic_ulcer",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "peptic_ulcer",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "gvhd_proph",
+        "group_mapping": {
+            "FK+ MMF +- others": "FK-based",
+            "FK+ MTX +- others(not MMF)": "FK-based",
+            "FKalone": "FK-based",
+            "FK+- others(not MMF,MTX)": "FK-based",
+            "Cyclophosphamide alone": "Cyclophosphamide-based",
+            "Cyclophosphamide +- others": "Cyclophosphamide-based",
+            "CSA + MMF +- others(not FK)": "CSA-based",
+            "CSA + MTX +- others(not MMF,FK)": "CSA-based",
+            "CSA alone": "CSA-based",
+            "CSA +- others(not FK,MMF,MTX)": "CSA-based",
+            "TDEPLETION alone": "T-Cell Depletion",
+            "TDEPLETION +- other": "T-Cell Depletion",
+            "CDselect alone": "CD Selection",
+            "CDselect +- other": "CD Selection",
+            "Other GVHD Prophylaxis": "Other/Uncertain",
+            "Parent Q = yes, but no agent": "Other/Uncertain",
+            "Unknown": "Other/Uncertain",
+            "No GvHD Prophylaxis": "No GvHD Prophylaxis"
+        }
+    },
+    {
+        "name": "rheum_issue",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "hepatic_mild",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "donor_related",
+        "group_mapping": {
+            "Related": "Related",
+            "Unrelated": "Unrelated",
+            "Multiple donor (non-UCB)": "Other",
+            "Unknown": "Other"
+        }
+    },
+    {
+        "name": "melphalan_dose",
+        "group_mapping": {
+            "N/A, Mel not given": "MEL not given",
+            "MEL": "MEL",
+            "Unknown": "MEL not given"
+        }
+    },
+    {
+        "name": "cardiac",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    },
+    {
+        "name": "pulm_moderate",
+        "group_mapping": {
+            "No": "No",
+            "Yes": "Yes",
+            "Unknown": "Uncertain",
+            "Not done": "Uncertain"
+        }
+    }
+]
